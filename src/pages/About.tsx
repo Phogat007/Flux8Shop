@@ -81,7 +81,7 @@ const AboutPage = () => {
     "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/2560px-Amazon_logo.svg.png",
     "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Samsung_Logo.svg/2560px-Samsung_Logo.svg.png",
     "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Logo_NIKE.svg/1200px-Logo_NIKE.svg.png",
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Adidas_logo.svg/2560px-Adidas_logo.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/1/1b/Adidas_2022_logo.svg",
     "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/1667px-Apple_logo_black.svg.png"
   ];
 
@@ -447,7 +447,7 @@ const AboutPage = () => {
               <Button 
                 size="lg" 
                 variant="outline" 
-                className="border-2 border-white text-white hover:bg-white/10 px-8 py-6 rounded-lg"
+                className="border-2 border-white text-brand hover:bg-white/10 px-8 py-6 rounded-lg"
                 asChild
               >
                 <Link to="/contact">Contact Us</Link>
